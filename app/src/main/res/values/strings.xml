@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- The quiz questions and answer options: -->
+    <string name="app_name">Quiz App</string>
+    <string name="question_01">What is the name of the type of notation used in the field of CS to describe an algorithm’s performance or complexity?</string>
+    <string name="response_placeholder">Response</string>
+    <string name="question_02">What is the big O of the following code?</string>
+    <string name="code_snippet_loops"><![CDATA[function looper(arr) {\n for (let i = 0; i < arr.length; ++i) {\n\t\t\tconsole.log(arr[i]);\n }\n for (let k = 0; k < arr.length; ++k){\n\t\t\tconsole.log(arr[k]);\n  }\n}]]></string>
+    <string name="question_03">Which of the following sorting methods is most efficient?</string>
+    <string name="radio_bucket_sort">Bucket Sort</string>
+    <string name="radio_cubesort">CubeSort</string>
+    <string name="radio_counting_sort">Counting Sort</string>
+    <string name="radio_shell_sort">Shell Sort</string>
+    <string name="question_04">What are the Big O\'s of Access and Search, respectively, in an Array?</string>
+    <string name="radio_o_1_amp_o_n"><![CDATA[O(1) & O(n)]]></string>
+    <string name="radio_o_n_amp_o_1"><![CDATA[O(n) & O(1)]]></string>
+    <string name="radio_o_1_amp_o_1"><![CDATA[O(1) & O(1)]]></string>
+    <string name="radio_o_n_amp_o_n"><![CDATA[O(n) & O(n)]]></string>
+    <string name="question_05">What is the space complexity of a Hash Table?</string>
+    <string name="radio_o_1">O(1)</string>
+    <string name="radio_o_log_n">O(log n)</string>
+    <string name="radio_o_n">O(n)</string>
+    <string name="radio_o_n_log_n">O(n log n)</string>
+
+    <!-- The regex to check the short answer question: -->
+    <string name="regex_big_o">(?i)\\bbig o\\b</string>
+
+    <!-- A double-line break: -->
+    <string name="double_line_break">\n\n</string>
+
+    <!-- The quiz answer feedback strings: -->
+    <string name="answer01_correct">Question 1: Correct! :D</string>
+    <string name="answer01_incorrect">Question 1: Incorrect :(</string>
+    <string name="answer02_correct">Question 2: Correct! :D</string>
+    <string name="answer02_partial">Question 2: Partial credit :)</string>
+    <string name="answer02_incorrect">Question 2: Incorrect :(</string>
+    <string name="answer03_correct">Question 3: Correct! :D</string>
+    <string name="answer03_incorrect">Question 3: Incorrect :(</string>
+    <string name="answer04_correct">Question 4: Correct! :D</string>
+    <string name="answer04_incorrect">Question 4: Incorrect :(</string>
+    <string name="answer05_correct">Question 5: Correct! :D</string>
+    <string name="answer05_incorrect">Question 5: Incorrect :(</string>
+    <string name="results_final_score">Final score: </string>
+    <string name="results_percent_symbol">%</string>
+
+</resources>
